@@ -1,5 +1,4 @@
-import user_schema from "../models/user.js";
-import registerRoute from "../routes/user.js";
+import user_schema from "../models/user.model.js";
 
 const signUp = async (req,res) =>{
     let { userName, email, password } = req.body;

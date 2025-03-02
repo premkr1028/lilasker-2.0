@@ -1,8 +1,10 @@
 import express from "express"
-import userSignRoute from "./routes/userRoutes";
+import dotenv from "dotenv";
+import userSignRoute from "./routes/userRoutes.js";
+dotenv.config();
 const app = express();
 
 app.use("/user" , userSignRoute)
-app.listen(3000, () =>{
+app.listen(process.env.PORT, () =>{
     console.log("running ji")
 })
