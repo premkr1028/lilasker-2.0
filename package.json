@@ -2,7 +2,7 @@
   "name": "lilasker-2.0",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "public/src/index.js",
   "type": "module",
   "scripts": {
     "dev": "node public/src/index.js",
