@@ -2,10 +2,10 @@
   "name": "lilasker-2.0",
   "version": "1.0.0",
   "description": "",
-  "main": "public/src/index.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "node public/src/index.js",
+    
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "prem",
